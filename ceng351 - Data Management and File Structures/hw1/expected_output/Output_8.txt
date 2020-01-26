@@ -1,0 +1,8 @@
+
+--------------------------------------------------------------
+*** Q3 ***
+book_name	category	first_publish_year
+Temp3	Temp category	2016
+Zoopolis	Politika/Arastirma	2016
+
+--------------------------------------------------------------

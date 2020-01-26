@@ -1,0 +1,38 @@
+#Zeynep Erdoğan
+#2171577
+
+.pos 0
+init:   irmovq Stack, %rsp      # Set up Stack pointer
+        jmp Main                # Execute main program
+
+
+# Sample linked list
+.align 8
+ele1:
+    .quad 0x00a
+    .quad ele2
+ele2:
+    .quad 0x0b0
+    .quad ele3
+ele3:
+    .quad 0xc00
+    .quad 0
+
+Main:   irmovq ele1, %rdi
+        call Sum
+        halt
+
+Sum:    irmovq $0, %rax
+        andq   %rdi, %rdi
+        je End
+
+Loop:   mrmovq (%rdi), %rsi
+        addq %rsi, %rax
+        mrmovq 8(%rdi), %rdi
+        andq %rdi, %rdi
+        jne Loop
+
+End:    ret
+
+.pos 0x200
+Stack:

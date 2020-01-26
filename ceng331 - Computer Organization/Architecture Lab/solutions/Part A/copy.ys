@@ -1,0 +1,46 @@
+#Zeynep Erdoğan
+#2171577
+
+.pos 0
+init:   irmovq Stack, %rsp      # Set up Stack pointer
+        jmp Main                # Execute main program
+
+
+.align 8
+# Source block
+src:
+	.quad 0x00a
+	.quad 0x0b0
+	.quad 0xc00
+# Destination block
+dest:
+	.quad 0x111
+	.quad 0x222
+	.quad 0x333
+
+
+Main:   irmovq src, %rdi
+        irmovq dest, %rsi
+        irmovq 3, %rdx
+        call copy_block
+        halt
+
+copy_block:   irmovq $0, %rax
+              andq   %rdx, %rdx
+              je End
+
+Loop:   mrmovq (%rdi), %rcx 
+        rmmovq %rcx, (%rsi) 
+        xorq %rcx, %rax     
+        irmovq $8, %r8     
+        addq %r8, %rdi    
+        addq %r8, %rsi    
+        irmovq $1,%rcx
+        subq %rcx,%rdx      
+        andq %rdx,%rdx      
+        jne Loop
+
+End:    ret
+
+.pos 0x200
+Stack:

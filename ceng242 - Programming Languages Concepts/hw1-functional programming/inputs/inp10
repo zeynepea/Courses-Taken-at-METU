@@ -1,0 +1,1 @@
+simulate [[O,O,O,O,O,O,O,O,O,O],[O,O,O,O,X,X,O,O,P,O],[O,X,X,O,O,O,O,O,O,O],[O,O,O,X,O,O,O,O,O,X],[O,O,O,O,O,O,O,O,O,O],[O,O,O,O,O,X,O,O,O,O],[O,H,O,O,O,O,X,X,O,O],[O,O,O,X,X,O,O,O,O,O]] [(W,E),(N,S),(N,E),(N,W),(N,W),(N,W),(W,N),(E,N),(W,W),(E,W),(S,W),(E,S),(E,S),(S,S)]

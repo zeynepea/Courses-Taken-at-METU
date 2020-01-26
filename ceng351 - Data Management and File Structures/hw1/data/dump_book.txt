@@ -1,0 +1,13 @@
+9786052116685	Kirk Bela	34	2018	408	Roman	5
+9786059389068	Zoopolis	34	2016	358	Politika/Arastirma	3
+9786059389204	Universite ve Otesi Genc Yetiskinler Icin Hayat Becerileri	34	2015	214	Egitim	4
+9786059389396	Leopoldun Sabunu	34	2017	312	Roman	2
+9786059389457	Keynes Hayek Modern Ekonomiyi Tanimlayan Catisma	34	2017	328	Is Ekonomi  Hukuk	4.5
+9786059389754	Viyana Nokta	34	2017	152	Turk Oyku	3
+9789944989282	Viyana Nokta	30	2007	150	Roman	4.5
+1111111111111	Temp1	55	2018	408	Roman	5
+2222222222222	Temp2	55	2018	408	Roman	4
+3333333333333	Temp3	34	2016	358	Temp category	3
+4444444444444	Temp4	66	2016	358	Temp category1	3
+5555555555555	Temp4	66	2016	358	Temp category2	3
+6666666666666	Temp4	66	2016	358	Temp category3	4

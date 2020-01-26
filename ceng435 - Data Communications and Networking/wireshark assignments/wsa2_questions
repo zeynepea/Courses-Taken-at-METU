@@ -1,0 +1,27 @@
+Objective
+In this assignment, you will examine network traffic using Wireshark and excercise the basics of transport layer protocols.
+
+
+Instructions
+Start up your favorite browser and Wireshark and start a packet capture.
+Visit YouTube and start playing one of your favorite videos. Close YouTube after 15-20 seconds of playback.
+Visit http://ceng.metu.edu.tr/~hbostan/ceng435
+Answer the questions below.
+Tip: Before you start doing the exercises, it is highly recommended to close all programs
+that communicate over network to make the task easier for yourself.
+
+Questions
+What IPv4 protocol does YouTube use for video streaming? Can you justify this design choice of engineers at YouTube?
+What is your computer's IP address, YouTube's IP address and ceng.metu.edu.tr's IP address?
+What is the destination and source ports for the GET requests made to ceng.metu.edu.tr? Draw a table.
+What are the Numbers of packets in the first 3-Way handshake with the ceng.metu.edu.tr? What are their sequence and ack numbers?
+What are the packet numbers and segment numbers of the first 5 packets of all packets transmitting the image 'ceng.png'? What is the length of each segment used to transmit the image?
+What is the minimum amount of available buffer space advertised at the receiver for the entire trace? Does the lack of receiver buffer space ever throttle the sender?
+Deliverables
+You are expected to submit your answers as a one-page-long softcopy solution to "Wireshark Turnitin Assignment 2: Transport Layer - Report" section and your packet capture file (.pcap) to "Wireshark Assignment 2: Transport Layer - PCAP Submission" section before the deadline. Please refer to course syllabus for late submission terms and follow Odtuclass system for further announcements.
+
+Late delivery
+Late delivery will be accepted for assignments. Your submission will be assessed out of 5 if it is delivered until the deadline.  Late delivery will only be possible for two days after the deadlines. Your grade will be assessed out of 4.5 points on the first day of late delivery and out of 4 points on the second day. Beyond two days, your submission will not be counted as a valid submission and the NA policy will be applied.
+
+Cheating Policy
+We have zero tolerance policy for cheating. People involved in cheating will be punished according to the university regulations.

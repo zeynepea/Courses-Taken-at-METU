@@ -1,0 +1,15 @@
+
+--------------------------------------------------------------
+*** Q4 ***
+publisher_id	category
+34	Egitim
+34	Is Ekonomi  Hukuk
+34	Politika/Arastirma
+34	Roman
+34	Temp category
+34	Turk Oyku
+66	Temp category1
+66	Temp category2
+66	Temp category3
+
+--------------------------------------------------------------
