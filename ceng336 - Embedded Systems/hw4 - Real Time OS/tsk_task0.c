@@ -14,6 +14,9 @@
 //between liine 85-196 it calculates obstacles locations and send MAP command according to relative
 //sencor data.
 //between line 433-439 it checks if all map explored and robot loc is target loc. and sends END command.
+
+// we were supposed to update the LCD module as a second task but we run out of time so just added
+// go command as a second task.
  /**********************************************************************/
 char data1[40];
 char data_size1;
