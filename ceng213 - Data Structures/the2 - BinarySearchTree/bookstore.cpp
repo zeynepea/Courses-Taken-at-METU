@@ -3,32 +3,6 @@
 BookStore::BookStore( ) //implemented, do not change
 {
 }
-/*private:
-    typedef Book::SecondaryKey SKey;
-    typedef BinarySearchTree<std::string, Book> BSTP;
-    typedef BinarySearchTree<SKey, const Book *,AuthorComparator> BSTS;
-    typedef BinarySearchTree<SKey, Book *, TitleComparator> BSTT;
-
-  private:
-    BSTP primaryIndex;
-    BSTS secondaryIndex;
-    BSTT ternaryIndex;
-
-template <typename Key, typename Object, typename Comparator=std::less<Key> >
-class BinarySearchTree 
-{
-  private: //do not change
-    struct BinaryNode //node definition: a dependent type
-    {
-      Key key; //keys will be kept constant
-      Object data; //objects that are referred to by keys may change
-      BinaryNode * left;
-      BinaryNode * right;
-      size_t height; //height info should be updated per insert & delete
-
-      BinaryNode(const Key &, const Object &,
-                 BinaryNode *, BinaryNode *, size_t =0);
-    };*/
 void
 BookStore::insert(const Book & book)
 {
